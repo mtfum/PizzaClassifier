@@ -13,6 +13,9 @@
 		2691C5EC26D16B4700A9F4D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2691C5EB26D16B4700A9F4D2 /* Preview Assets.xcassets */; };
 		2691C5F726D16B4700A9F4D2 /* PizzaClassifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2691C5F626D16B4700A9F4D2 /* PizzaClassifierTests.swift */; };
 		2691C60226D16B4700A9F4D2 /* PizzaClassifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2691C60126D16B4700A9F4D2 /* PizzaClassifierUITests.swift */; };
+		26E49F0726D1748600F09A8A /* PizzaClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 26E49F0626D1748600F09A8A /* PizzaClassifier.mlmodel */; };
+		26E49F0926D174E200F09A8A /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E49F0826D174E200F09A8A /* ImagePicker.swift */; };
+		26E49F0B26D1757700F09A8A /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E49F0A26D1757700F09A8A /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		2691C5FD26D16B4700A9F4D2 /* PizzaClassifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzaClassifierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2691C60126D16B4700A9F4D2 /* PizzaClassifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaClassifierUITests.swift; sourceTree = "<group>"; };
 		2691C60326D16B4700A9F4D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26E49F0626D1748600F09A8A /* PizzaClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = PizzaClassifier.mlmodel; sourceTree = SOURCE_ROOT; };
+		26E49F0826D174E200F09A8A /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		26E49F0A26D1757700F09A8A /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +105,10 @@
 				2691C5E626D16B4700A9F4D2 /* ContentView.swift */,
 				2691C5E826D16B4700A9F4D2 /* Assets.xcassets */,
 				2691C5ED26D16B4700A9F4D2 /* Info.plist */,
+				26E49F0626D1748600F09A8A /* PizzaClassifier.mlmodel */,
 				2691C5EA26D16B4700A9F4D2 /* Preview Content */,
+				26E49F0826D174E200F09A8A /* ImagePicker.swift */,
+				26E49F0A26D1757700F09A8A /* ContentViewModel.swift */,
 			);
 			path = PizzaClassifier;
 			sourceTree = "<group>";
@@ -260,7 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2691C5E726D16B4700A9F4D2 /* ContentView.swift in Sources */,
+				26E49F0926D174E200F09A8A /* ImagePicker.swift in Sources */,
 				2691C5E526D16B4700A9F4D2 /* PizzaClassifierApp.swift in Sources */,
+				26E49F0726D1748600F09A8A /* PizzaClassifier.mlmodel in Sources */,
+				26E49F0B26D1757700F09A8A /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
