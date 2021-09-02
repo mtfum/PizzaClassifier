@@ -1,6 +1,6 @@
 # PizzaClassifier
 
-This is an sample implementation of pizza classificatoin app with CreatML and SwiftUI.
+This is an sample implementation of pizza classification app with CreatML and SwiftUI.
 
 Using CreateML gives you the opportunity to train your own ML model.
 At this time, I collected 7 types pizza(Greek, Margherita, Meat, New Yourk-Style, Pepparoni, Sicilian, Veggie) images and then train and test it.
